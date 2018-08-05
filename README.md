@@ -2,9 +2,12 @@ This is theDeep Transition Dependency Parser I made for my Natural Language Proc
 It is based around an LSTM (long short-term memory) neural network. 
 All of the code and training data are included in this repo.
 Note that it is  easier to follow the explanations and see the results of the code by reading pset3.ipynb.
-I recommend looking at pset3.ipynb before anything else, as all other code is used to generate models that can be seen in the Jupyter notebook.
+I recommend looking at pset3.ipynb before anything else, as all other code is used to generate the models that can be seen in the Jupyter notebook.
 
-However the general control flow of the program follows below.
+Results of the graded tests are featured below.
+![alt text](https://raw.githubusercontent.com/smikhaylov3/Deep-Transition-Dependency-Parser/master/Dependency%20parsing%20results.jpg)
+
+A summary of the general control flow of the program follows below.
 
 ->Initialize your parsing stack and input buffer.
 ->At each step, until the parse is done:
